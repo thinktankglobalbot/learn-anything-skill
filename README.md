@@ -1,6 +1,10 @@
 # Learn Anything 🧠
 
+**Learn anything. Remember everything.**
+
 An OpenClaw skill that helps anyone learn any topic efficiently using proven learning science methods.
+
+[**→ Install on ClawHub**](https://clawhub.ai/thinktankglobalbot/learn-anything)
 
 ## What It Does
 
@@ -8,7 +12,6 @@ An OpenClaw skill that helps anyone learn any topic efficiently using proven lea
 - **Curate Resources** — Find the best free learning materials
 - **Quiz for Retention** — Create practice questions for active recall
 - **Track Progress** — Update learning journal with spaced repetition
-- **Anki Export** — Generate flashcards for spaced repetition apps
 
 ## Quick Start
 
@@ -18,16 +21,30 @@ An OpenClaw skill that helps anyone learn any topic efficiently using proven lea
 "Teach me [topic] step by step"
 ```
 
+## Example Topics
+
+- Programming (Python, JavaScript, Rust...)
+- Languages (Tagalog, Japanese, Spanish...)
+- Skills (trading, cooking, photography...)
+- Concepts (machine learning, economics, psychology...)
+
+## Learning Methods Used
+
+- **Spaced Repetition** — Review at optimal intervals
+- **Feynman Technique** — Explain in simple terms
+- **Active Recall** — Quiz yourself, don't just re-read
+- **Interleaving** — Mix related topics
+- **Pomodoro** — Focused 25-min sessions
+
 ## Installation
 
-### Via ClawHub (recommended)
 ```bash
 clawhub install learn-anything
 ```
 
-### Manual
+Or manually:
 ```bash
-git clone https://github.com/your-username/learn-anything-skill.git
+git clone https://github.com/thinktankglobalbot/learn-anything-skill.git
 cp -r learn-anything-skill ~/.openclaw/skills/learn-anything
 ```
 
@@ -38,15 +55,37 @@ learn-anything/
 ├── SKILL.md                        # Core skill instructions
 ├── references/
 │   ├── learning-methods.md         # Deep dive on learning science
-│   ├── anki-export.md              # Flashcard integration guide
-│   └── topic-templates.md          # Templates by topic type
+│   └── learning-path-templates.md  # Pre-built paths for 5 topics
 ├── scripts/
 │   └── generate-quiz.py            # Quiz generator
 └── assets/
     └── learning-path-template.md   # Progress tracker template
 ```
 
-## Example Usage
+## Pre-Built Learning Paths
+
+Get started fast with templates for:
+- **Python Programming** (Beginner → Intermediate)
+- **JavaScript/React** (Web development)
+- **Spanish** (Conversational)
+- **Machine Learning** (Basics)
+- **Financial Investing** (Fundamentals)
+
+Each template includes 4-week milestones, free resources, and quiz checkpoints.
+
+## Why This Works
+
+Most learning fails because:
+- **Cramming doesn't work** — 90% forgotten within a week
+- **Passive review is weak** — Re-reading ≠ remembering
+- **No system** — Without structure, you quit
+
+Learn Anything uses:
+- ✅ **Spaced repetition** — Review at optimal intervals
+- ✅ **Active recall** — Quiz yourself, struggle = learning
+- ✅ **Feynman technique** — Explain simply to understand deeply
+
+## Example Output
 
 **Input:** "Help me learn Python basics"
 
@@ -57,31 +96,13 @@ learn-anything/
 - Quiz questions
 - Spaced repetition schedule
 
-## Learning Methods Used
-
-- **Spaced Repetition** — Review at optimal intervals
-- **Feynman Technique** — Explain in simple terms
-- **Active Recall** — Quiz yourself, don't just re-read
-- **Interleaving** — Mix related topics
-- **Pomodoro** — Focused 25-min sessions
-
-## Topic Types Supported
-
-| Type | Example Topics |
-|------|----------------|
-| Programming | Python, JavaScript, Rust |
-| Languages | Tagalog, Japanese, Spanish |
-| Technical | Trading, Design, Data Science |
-| Academic | Economics, Psychology, Math |
-| Physical | Guitar, Tennis, Drawing |
-
 ## Contributing
 
 Issues and PRs welcome! Areas to improve:
 - More quiz types
-- Additional topic templates
+- Additional learning methods
+- Topic-specific templates
 - Progress tracking improvements
-- Integration with more flashcard apps
 
 ## License
 
